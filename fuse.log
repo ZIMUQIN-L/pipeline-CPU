@@ -1,0 +1,60 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/.Xilinx/xilinx/P6/mips_tb_isim_beh.exe" -prj "C:/.Xilinx/xilinx/P6/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/plexer.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/PC.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/NPC.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/MW.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/MUDI.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/IM.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/GRF.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/FD.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/E_HAZARD.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/EXT.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/EM.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/DM_.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/DE.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/CMP.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/ALU.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/datapath.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/controller.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/mips.v" into library work
+Analyzing Verilog file "C:/.Xilinx/xilinx/P6/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module NPC
+Compiling module IM
+Compiling module F_D
+Compiling module A3_plexer
+Compiling module WD_plexer
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module DE
+Compiling module E_Hazard
+Compiling module A_plexer
+Compiling module B_plexer
+Compiling module ALU
+Compiling module MUDI
+Compiling module MD_plexer
+Compiling module EM
+Compiling module M_Hazard
+Compiling module DM_
+Compiling module MW
+Compiling module W_Hazard
+Compiling module datapath
+Compiling module controller
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 26 Verilog Units
+Built simulation executable C:/.Xilinx/xilinx/P6/mips_tb_isim_beh.exe
+Fuse Memory Usage: 33556 KB
+Fuse CPU Usage: 796 ms

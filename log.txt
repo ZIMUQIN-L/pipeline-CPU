@@ -1,0 +1,61 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mips_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\ALU.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\CMP.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\controller.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\datapath.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\DATA_TB.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\DE.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\DM.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\DM_.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\EM.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\EXT.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\E_HAZARD.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\FD.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\gener_half.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\GRF.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\hello.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\IM.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\IM_TB.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\mips.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\mips_tb.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\mips_tb_2.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\MW.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\NPC.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\PC.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\PC_TB.v" into library work
+Analyzing Verilog file "C:\.Xilinx\xilinx\P5_hazard_test\plexer.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module NPC
+Compiling module IM
+Compiling module F_D
+Compiling module A3_plexer
+Compiling module WD_plexer
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module DE
+Compiling module E_Hazard
+Compiling module A_plexer
+Compiling module B_plexer
+Compiling module ALU
+Compiling module EM
+Compiling module M_Hazard
+Compiling module DM_
+Compiling module MW
+Compiling module W_Hazard
+Compiling module datapath
+Compiling module controller
+Compiling module mips
+Compiling module mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 32072 KB
+Fuse CPU Usage: 1186 ms
